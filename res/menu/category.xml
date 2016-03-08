@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/kaoyan"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="考研书籍"/>
+     <item
+        android:id="@+id/profess"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="计算机/软件"/>
+     <item  
+        android:id="@+id/English"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="四六级/雅思托福"/>  
+     <item  
+        android:id="@+id/literature"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="文学"/> 
+     <item  
+        android:id="@+id/novel"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="小说"/>
+     <item  
+        android:id="@+id/cartoon"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="漫画"/> 
+      <item  
+        android:id="@+id/magazine"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="杂志期刊"/> 
+       <item  
+        android:id="@+id/others"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="其它"/> 
+       
+</menu>

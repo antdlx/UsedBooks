@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item_menu_myoldbooks"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="我的旧书"/>
+    <item
+        android:id="@+id/item_menu_update"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="检查更新"/>
+     <item  
+        android:id="@+id/item_menu_advice"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="反馈"/>  
+     <item  
+        android:id="@+id/item_menu_about"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="关于我们"/> 
+
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+        android:id="@+id/btnKaoyan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   考研书籍"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/btnComputer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   计算计/软件"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnCET"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   四六级/雅思托福"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnLiterature"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   文学"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnNovel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   小说"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnCartoon"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   漫画"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnMagazine"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   杂志期刊"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnElse"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:text="   其他"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

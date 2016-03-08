@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_gravity="center_horizontal"
+    >
+    
+    <FrameLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        >
+        <ImageView 
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_item_mybook_grid"
+        android:scaleType="fitCenter"
+        android:gravity="center"
+        />
+        <ProgressBar 
+            android:layout_height="5dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/pb_item_mybook"
+            android:max="100"
+            android:indeterminate="false"
+            style="?android:attr/progressBarStyleHorizontal" 
+            android:layout_gravity="center"
+            />
+        
+    </FrameLayout>
+    
+   <RelativeLayout 
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥1"
+            android:id="@+id/tv_item_mybook_price"
+            android:textSize="15dp"
+            android:textColor="#fc6d02"
+            android:layout_marginLeft="2dp"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="软件园校区"            
+            android:id="@+id/tv_item_mybook_campus"
+            android:layout_toLeftOf="@+id/tv_item_mybook_fenge"
+            android:textSize="7dp"
+            android:textColor="#9a9a97"
+            android:layout_alignBaseline="@+id/tv_item_mybook_price"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:id="@+id/tv_item_mybook_fenge"
+            android:layout_toLeftOf="@+id/tv_item_mybook_date"
+            android:textSize="7dp"
+            android:textColor="#9a9a97"
+            android:layout_alignBaseline="@+id/tv_item_mybook_price"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-10-31 20:27:00"
+            android:id="@+id/tv_item_mybook_date"
+            android:layout_alignParentRight="true"
+            android:textSize="7dp"
+            android:textColor="#9a9a97"
+            android:layout_alignBaseline="@+id/tv_item_mybook_price"
+            />
+
+        
+    </RelativeLayout>
+    
+   <TextView 
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:id="@+id/tv_item_mybook_content"
+            android:textSize="13dp"
+            android:textColor="#323232"
+            android:padding="8dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/item_myoldbook_text_background"
+            android:layout_marginBottom="2dp"
+            />
+   <Button 
+       android:layout_width="150dp"
+       android:layout_height="30dp"
+       android:layout_gravity="center"
+       android:background="@drawable/item_myoldbook_set_saled"
+       android:text="正在销售"
+       android:textColor="#ffffff"
+       android:id="@+id/bt_item_mybook_contact"
+       android:layout_marginBottom="2dp"
+       />
+   <RelativeLayout 
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="7dp"
+       android:layout_gravity="center"
+      
+       >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浏览次数：20"
+            android:id="@+id/tv_item_mybook_scannumber"
+            android:layout_alignParentLeft="true"
+            
+            android:textSize="8dp"
+            android:textColor="#9a9a97"
+            android:layout_centerVertical="true"
+            />
+        <ImageView 
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iv_item_mybook_classify"
+            android:id="@+id/iv_item_mybook_classify"
+            android:layout_toLeftOf="@+id/tv_item_mybook_classify"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            />
+	      <TextView 
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="计算机/软件"
+	      android:id="@+id/tv_item_mybook_classify"
+	      android:layout_alignParentRight="true"
+	      android:textSize="8dp"
+	      android:textColor="#9a9a97"
+	      
+	      android:layout_centerVertical="true"
+	      />
+       
+   </RelativeLayout>
+   
+    
+    
+
+</LinearLayout>

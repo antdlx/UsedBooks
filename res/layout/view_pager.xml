@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fd6c03"
+        >
+        
+        <ImageView 
+            android:layout_width="70dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/main_logo"
+            android:scaleType="fitCenter"
+            />
+        
+        <ImageButton
+            android:id="@+id/btn_viewpager_more"
+            android:src="@drawable/main_more"
+            android:layout_height="42dp"
+            android:layout_width="42dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitCenter"
+             android:layout_marginBottom="11dp"
+             android:layout_marginRight="11dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             />
+
+        <ImageButton
+            android:id="@+id/btn_viewpager_search"
+              
+            android:layout_height="42dp"
+            android:layout_width="42dp"
+            android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+            android:layout_marginTop="11dp"
+             android:layout_marginBottom="11dp"
+            android:src="@drawable/main_search"
+           android:layout_toLeftOf="@+id/btn_viewpager_more"
+             />
+        
+        <ImageButton
+            android:id="@+id/btn_viewpager_send"
+           android:layout_height="42dp"
+            android:layout_width="42dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitCenter"
+             android:layout_marginBottom="11dp"
+            
+            android:src="@drawable/main_add"
+           
+            android:layout_toLeftOf="@+id/btn_viewpager_search"
+             />
+        
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#ececec"
+            >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/btnblank1"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:button="@null"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/btnleft"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/main_left_orange"
+                    android:button="@null"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/btnHorizontalScrollView1"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="#fd6c01"
+                    android:button="@null"
+                    android:gravity="left|center"
+                    android:text="浏览 "
+                    android:textColor="#f8f8f8" />
+
+                <RadioButton
+                    android:id="@+id/btnHorizontalScrollView2"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:gravity="right|center"
+                    android:text="分类"
+                    android:textColor="#fd6c01" />
+
+                <RadioButton
+                    android:id="@+id/btnright"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/main_right_write"
+                    android:button="@null"
+                    android:gravity="center" />
+
+                <RadioButton
+                    android:id="@+id/btnblank2"
+                    android:layout_height="30dp"
+                    android:layout_weight="2"
+                    android:button="@null"
+                    android:gravity="center" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </android.support.v4.view.ViewPager>
+
+</LinearLayout>

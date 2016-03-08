@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/software"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="软件园校区"/>
+     <item  
+        android:id="@+id/other"  
+        android:orderInCategory="100"  
+        android:showAsAction="never"  
+        android:title="其它"/>  
+
+</menu>

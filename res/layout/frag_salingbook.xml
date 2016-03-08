@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >    
+
+    <GridView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:numColumns="2"
+        android:id="@+id/grid_mybook"
+        android:columnWidth="200dp"
+        ></GridView>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_mybook_loading"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:id="@+id/pb_mybook_loading"     
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_my_book_loading"
+        android:text="正在下载..."
+        />
+        
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frg_sailing_no"
+        android:id="@+id/iv_frag_sailing_no"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        />
+    
+
+</RelativeLayout>

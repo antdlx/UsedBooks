@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fc6d02"
+        >
+        <FrameLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            >
+            <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/iv_push_back"
+            android:src="@drawable/activity_myoldbook_back"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_vertical"
+            android:background="#00ffffff"       
+            android:layout_marginLeft="10dp"     
+            />
+            
+            <Button 
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/bt_about_back"
+                android:background="#00ffffff"
+                />
+        </FrameLayout>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_about_title"
+            android:text="关于我们"  
+            android:textSize="20sp"   
+            android:textColor="#ffffff"   
+            android:layout_centerInParent="true"    
+            />               
+    </RelativeLayout>
+    <ImageView 
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_about"
+        android:src="@drawable/activity_about"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

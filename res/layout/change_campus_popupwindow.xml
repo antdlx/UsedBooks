@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="275dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/tvSoftWare"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="   软件园校区"
+		android:focusable="true"
+		android:background="@drawable/btn"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/tvElse"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:focusable="true"
+		android:background="@drawable/btn"
+        android:gravity="center_vertical"
+        android:text="   其他校区"
+        android:textColor="#565656"
+        android:textSize="15dp" />
+
+</LinearLayout>

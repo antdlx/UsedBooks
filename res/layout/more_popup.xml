@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvMyUsedbook"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ccfc6d02"
+        android:gravity="center"
+        android:focusable="true"
+        android:text="我的旧书"
+        android:textColor="@drawable/tv"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvUpload"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ccfc6d02"
+        android:gravity="center"
+        android:focusable="true"
+        android:text="检查更新"
+        android:textColor="@drawable/tv"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:focusable="true"
+        android:background="#ccfc6d02"
+        android:gravity="center"
+        android:text="反馈"
+        android:textColor="@drawable/tv"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ccfc6d02"
+        android:gravity="center"
+        android:focusable="true"
+        android:text="关于我们"
+        android:textColor="@drawable/tv"
+        android:textSize="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_main_loading"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ProgressBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:id="@+id/pb_main_loading"  
+        style="?android:attr/progressBarStyleSmall"   
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_main_loading"
+        
+        android:text="正在下载..."
+        />
+        
+    </LinearLayout>
+    
+    <com.miloisbadboy.view.PullToRefreshView
+    android:id="@+id/main_pull_refresh_view"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+	<!-- 这里放置listview,gridview或者scrollview的布局 ,PullToRefreshView
+	要设置android:orientation="vertical"属性
+	否则,显示不正确-->
+    <GridView
+        android:id="@+id/gridview"
+        android:numColumns="2"
+        android:verticalSpacing="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+      
+
+</com.miloisbadboy.view.PullToRefreshView>
+
+</LinearLayout>
